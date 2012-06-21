@@ -4,7 +4,7 @@
 
   //var clip = 'avypbvyeheszgnairncluksthywj'
   clip = dataclip_id;
-  $.getJSON('http://localhost:3000/clip/'+clip, function(data) {
+  $.getJSON('https://embedclip.herokuapp.com/clip/'+clip, function(data) {
    table = '<table border=2><thead><tr>'
    for(key in data[0]) {
      table = table + '<th>' + key + '</th>'
