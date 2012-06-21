@@ -1,0 +1,16 @@
+<html>
+<head><title>Embed a Dataclip</title></head>
+<body>
+<h1>Embed a Dataclip</h1>
+<code style='font-family: fixed'><pre>
+  &lt;script type='text/javascript'>
+    var dataclip_id = 'REPLACE WITH YOUR DATACLIP ID';
+    (function() {
+          var dclip = document.createElement('script'); dclip.type = 'text/javascript'; dclip.async = true;
+          dclip.src = 'http://localhost:3000/js/dataclip.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dclip);
+      })()
+  &lt;/script>
+</pre></code>
+</body>
+</html>
