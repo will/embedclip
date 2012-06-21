@@ -19,7 +19,7 @@
 
    table = table + '</tr></thead>'
    table = table + '</table>'
-   table = table + 'view this Dataclip on <a href="https://postgres.heroku.com/dataclips' + clip + '">Heroku Postgres</a>'
+   table = table + 'view this Dataclip on <a href="https://postgres.heroku.com/dataclips/' + clip + '">Heroku Postgres</a>'
    $('body').append(table)
 
 
