@@ -9,6 +9,7 @@
 }
 
 .dataclip table th {
+  padding: 0.5em;
   font-weight: bold;
   font-family: Helvetica, sans-serif;
 }
