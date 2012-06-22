@@ -1,0 +1,22 @@
+(function() {
+  document.write('<link rel="stylesheet" href="<%=@css_url%>">');
+  "https://gist.github.com/stylesheets/gist/embed.css"
+  var data = <%= @json %>;
+  var table = '<div id="dataclip-<%=@clip_id%>" class="dataclip"><table><thead><tr>'
+   for(key in data[0]) {
+     table = table + '<th>' + key + '</th>'
+   }
+   for(row in data) {
+     table = table + '<tr>'
+     for(val in data[row]) {
+       table = table + '<td>' + data[row][val] + '</td>'
+     }
+     table = table + '</tr>'
+   }
+
+   table = table + '</tr></thead>'
+   table = table + '</table>'
+   table = table + '<div class="tagline"><a href="https://postgres.heroku.com/dataclips/<%= @clip_id %>">This Dataclip</a> brought to you by <a href="http://postgres.heroku.com">Heroku Postgres</a>.</div></div>'
+   document.write(table)
+
+})();

@@ -1,0 +1,39 @@
+.dataclip {
+  display: inline-block;
+}
+
+.dataclip table {
+  background-color: #10253C;
+  color: white;
+  font-family: fixed;
+}
+
+.dataclip table th {
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+.dataclip table td {
+  padding: 0.5em;
+  border-top: 1px solid #BBDAF9;
+  border-left: 1px solid #BBDAF9;
+}
+
+.dataclip table td:nth-child(1) {
+  border-left: none;
+}
+
+.dataclip table tr:nth-child(even) {
+  background-color: #0F1D2F;
+}
+
+.dataclip .tagline {
+  padding: 0.5em;
+  background-color: #BBDAF9;
+  font-family: Helvetica, sans-serif;
+}
+
+.dataclip .tagline a, .dataclip .tagline a:visited {
+  color: blue;
+}
+
