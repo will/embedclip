@@ -1,5 +1,6 @@
 .dataclip {
   display: inline-block;
+  border: 2px solid #BBDAF9;
 }
 
 .dataclip table {
