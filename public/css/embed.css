@@ -12,6 +12,8 @@
   padding: 0.5em;
   font-weight: bold;
   font-family: Helvetica, sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .dataclip table td {
