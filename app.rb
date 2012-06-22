@@ -10,6 +10,8 @@ class App < Sinatra::Application
     @css_url = "#{host}/css/embed.css"
     @clip_id = params[:id]
     @json = RestClient.get("https://postgres.heroku.com/dataclips/#{params[:id]}.json")
+
+    content_type 'application/javascript'
     erb :clipjs
   end
 end
