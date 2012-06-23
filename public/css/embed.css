@@ -27,7 +27,7 @@
   border-left: none;
 }
 
-.dataclip table tr:nth-child(odd) {
+.dataclip table tr:nth-child(even) {
   background-color: #0F1D2F;
 }
 
