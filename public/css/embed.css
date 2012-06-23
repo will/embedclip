@@ -27,7 +27,7 @@
   border-left: none;
 }
 
-.dataclip table tr:nth-child(even) {
+.dataclip table tr:nth-child(odd) {
   background-color: #0F1D2F;
 }
 
@@ -35,6 +35,7 @@
   padding: 0.5em;
   background-color: #BBDAF9;
   font-family: Helvetica, sans-serif;
+  font-size: 0.75em;
 }
 
 .dataclip .tagline a, .dataclip .tagline a:visited {
