@@ -1,5 +1,6 @@
 source :rubygems
 
+gem 'thin'
 gem 'sinatra', require: 'sinatra/base'
 gem 'rest-client'
 gem 'coffee-script'
